@@ -1,0 +1,22 @@
+{
+    "name": "AswinSasi/bagisto-api",
+    "description": "Custom API module for Bagisto",
+    "authors": [
+        {
+            "name": "aswin",
+            "email": "aswin@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AswinSasi\\BagistoApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AswinSasi\\BagistoApi\\Providers\\BagistoApiServiceProvider"
+            ]
+        }
+    }
+}
