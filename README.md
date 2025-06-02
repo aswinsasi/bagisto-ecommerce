@@ -86,7 +86,7 @@ Use this as the root path for all API endpoint requests.
 ### Filters Available on `/custom-api/products`
 
 - `category`  
-  Filter by category ID or slug (e.g., `men-shirts`)
+  Filter by category (e.g., `men-shirts`)
 
 - `price_min` and `price_max`  
   Filter products within a price range
@@ -104,4 +104,4 @@ Use this as the root path for all API endpoint requests.
 
 
 ### Example request:
-GET /api/products?category=men-shirts&price_min=100&price_max=500&color=red&size=medium
+GET /custom-api/products?category=men-shirts&price_min=100&price_max=500&color=red&size=medium
