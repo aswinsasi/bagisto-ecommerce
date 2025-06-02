@@ -51,12 +51,25 @@ php artisan serve
 
 ### Visit:
 
-Admin Panel: http://localhost/admin/login
-Default credentials:
-Email: admin@example.com
-Password: admin123
+---
 
-API Base URL: http://localhost/custom-api
+### 🔐 Admin Panel Access
+
+- **URL:** [http://localhost/admin/login](http://localhost/admin/login)
+
+- **Default Credentials:**
+  - 📧 **Email:** `admin@example.com`  
+  - 🔑 **Password:** `admin123`
+
+---
+
+### 🌐 API Base URL
+
+- **Base URL:** [http://localhost/custom-api](http://localhost/custom-api)
+
+Use this as the root path for all API endpoint requests.
+
+---
 
 
 ### API Endpoints
